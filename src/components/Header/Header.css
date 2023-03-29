@@ -1,0 +1,40 @@
+.h-div {
+  background-color: white;
+  filter: drop-shadow(0px 1px 10px rgb(224, 224, 224));
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+.h-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+.h-items {
+  padding: 0px 10px;
+}
+.h-items:hover {
+  text-decoration: underline;
+}
+
+.h-left {
+  display: flex;
+  align-items: center;
+  flex: 0.5;
+  justify-content: flex-start;
+}
+.h-right {
+  display: flex;
+  align-items: center;
+  flex: 0.5;
+  justify-content: flex-end;
+}
